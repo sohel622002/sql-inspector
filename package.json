@@ -1,0 +1,26 @@
+{
+  "name": "sql-inspector",
+  "version": "1.0.0",
+  "description": "Generic dev-tool: browse live SQL data from any app via a small adapter, in a browser UI.",
+  "type": "module",
+  "main": "client/index.js",
+  "bin": {
+    "sql-inspector": "bin/sql-inspector.js"
+  },
+  "files": [
+    "bin",
+    "server",
+    "client",
+    "public",
+    "adapters",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node bin/sql-inspector.js",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "license": "MIT"
+}
