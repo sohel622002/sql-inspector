@@ -1,7 +1,7 @@
 # sql-inspector
 
 [![npm version](https://img.shields.io/npm/v/sql-inspector.svg)](https://www.npmjs.com/package/sql-inspector)
-[![license](https://img.shields.io/npm/l/sql-inspector.svg)](./LICENSE)
+[![license](https://img.shields.io/npm/l/sql-inspector.svg)](https://github.com/sohel622002/sql-inspector/blob/main/LICENSE)
 
 A tiny, self-hosted dev tool for looking at live data inside a running app's SQL(-ish) store — a browser UI showing tables and rows, with search and pagination, refreshable on demand.
 
