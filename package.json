@@ -4,6 +4,18 @@
   "description": "Generic dev-tool: browse live SQL data from any app via a small adapter, in a browser UI.",
   "type": "module",
   "main": "client/index.js",
+  "keywords": [
+    "sqlite",
+    "sql-inspector",
+    "sqlite-inspector",
+    "database-inspector",
+    "capacitor",
+    "capacitor-sqlite",
+    "ionic",
+    "debugging",
+    "database",
+    "sqlite-viewer"
+  ],
   "bin": {
     "sql-inspector": "bin/sql-inspector.js"
   },
