@@ -31,6 +31,8 @@ Apps that embed a local database (SQLite via Capacitor, `better-sqlite3`, `sql.j
 
 `sql-inspector` solves this: a standalone tool that sits **outside** the app, connects to it over a WebSocket relay, and lets you browse whatever's currently in the local database from an ordinary browser tab — with zero UI added to the app itself beyond a couple of bootstrap lines that are stripped in production builds.
 
+![sql-inspector UI showing a users table with search and pagination](assets/dashboard-ui.png)
+
 ## What problem it solves
 
 - **Fast local-data inspection during development** — no need to pull `.db` files, no native IDE tooling, no platform lock-in (works the same for iOS and Android builds, since it just talks over WebSocket).
